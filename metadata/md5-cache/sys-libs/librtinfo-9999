@@ -1,0 +1,9 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1
+DESCRIPTION=Small library used to collect system (linux) information for monitoring with low ressource usage
+EAPI=6
+HOMEPAGE=https://github.com/maxux/librtinfo
+LICENSE=GPL-3
+SLOT=0
+_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
+_md5_=f3026f9472cd302e55d0a3df2e64bc84
