@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>nado@troglodyte.be</email>
+		<name>Corentin Pazdera</name>
+	</maintainer>
+	<use>
+		<flag name='server'>Builds the rtinfo daemon which stores data from the clients</flag>
+		<flag name='client'>Builds the rtinfo-client which sends data to the server</flag>
+	</use>
+</pkgmetadata>
+
