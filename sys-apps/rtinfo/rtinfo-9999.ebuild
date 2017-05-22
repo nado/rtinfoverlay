@@ -5,7 +5,7 @@ EAPI=6
 
 inherit git-r3
 
-DESCRIPTION="Small library used to collect system (linux) information for monitoring with low ressource usage"
+DESCRIPTION="Small library used to monitor linux system with low ressource usage"
 HOMEPAGE="https://github.com/maxux/rtinfo"
 EGIT_BRANCH="master"
 EGIT_REPO_URI="
@@ -44,11 +44,11 @@ src_compile() {
 
 src_install() {
 	if use server; then
-		emake -C rtinfod DESTDIR="${D}" PREFIX="${EPREFIX}/usr/" install
+		emake -C rtinfod DESTDIR="${D}" PREFIX="${EPREFIX}/usr/" OPENRC=YES install
 	fi
 
 	if use client; then
-		emake -C rtinfo-client DESTDIR="${D}" PREFIX="${EPREFIX}/usr/" install
+		emake -C rtinfo-client DESTDIR="${D}" PREFIX="${EPREFIX}/usr/" OPENRC=YES install
 	fi
 
 	if use ncurses; then
