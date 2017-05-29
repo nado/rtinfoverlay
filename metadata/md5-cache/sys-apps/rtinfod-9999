@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/jansson sys-libs/librtinfo >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Small daemon used to monitor linux system with low ressource usage
+EAPI=6
+HOMEPAGE=https://github.com/maxux/rtinfo
+LICENSE=GPL-3
+RDEPEND=dev-libs/jansson sys-libs/librtinfo
+SLOT=0
+_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
+_md5_=0b77d1257afb095395cbf48ad1409ac4
