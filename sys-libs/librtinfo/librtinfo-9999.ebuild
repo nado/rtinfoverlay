@@ -5,7 +5,7 @@ EAPI=6
 
 inherit git-r3
 
-DESCRIPTION="Small library used to collect system (linux) information for monitoring with low ressource usage"
+DESCRIPTION="Small library used to collect system information with low ressource usage"
 HOMEPAGE="https://github.com/maxux/librtinfo"
 
 EGIT_BRANCH="master"
