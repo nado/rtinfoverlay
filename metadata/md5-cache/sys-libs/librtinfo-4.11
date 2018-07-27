@@ -1,9 +1,0 @@
-DEFINED_PHASES=install
-DESCRIPTION=Small library used to collect system (linux) information for monitoring with low ressource usage
-EAPI=6
-HOMEPAGE=https://github.com/maxux/librtinfo
-KEYWORDS=~amd64 ~x86
-LICENSE=GPL-3
-SLOT=0
-SRC_URI=https://github.com/maxux/librtinfo/archive/4.11.tar.gz
-_md5_=7fd044792ec427c067263fdc8cb1179f
